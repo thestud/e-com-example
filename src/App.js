@@ -12,8 +12,6 @@ class App extends Component {
 	state = { items: [] };
 
 	componentDidMount() {
-        let instance1 = Singleton.getInstance();
-
         fetch('http://localhost:4000/items')
             .then(res => res.json())
             .then((data) => {
