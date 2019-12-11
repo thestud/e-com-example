@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Ecom from './Ecom'
-import {Singleton} from './Singleton.js'
 
 class App extends Component {
 
